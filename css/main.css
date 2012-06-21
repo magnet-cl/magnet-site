@@ -1,0 +1,46 @@
+body{
+	background-color: #CCCCCC;
+}
+
+.navbar-inner{
+	background: -moz-linear-gradient(center top , #DDDDDD, #CCCCCC);
+	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.25), 0 -1px 0 rgba(0, 0, 0, 0.1) inset;
+
+}
+
+.stripe{
+	padding-top: 70px;
+	background-color: #F0F0F0;
+	box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.25) inset;
+	position: relative;
+}
+
+.content{
+	height: 260px;
+}
+
+.hero-unit{
+	background-color: transparent;
+	padding: 10px;
+	position: absolute;
+}
+
+hr{
+	border-color: #BBBBBB;
+}
+
+.navbar .nav .active > a{
+	background-color: #777777;
+}
+
+.navbar .nav .active > a:hover{
+	background-color: #AAAAAA;
+}
+
+#hero2, #hero3{
+	display: none;
+}
+
+input, textarea{
+	width: 95%;
+}
