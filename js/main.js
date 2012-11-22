@@ -1,41 +1,57 @@
-C = function(){
-	var self = this;
-	this.selected = 1;
+(function() {
+  var initmap;
 
-	this.selectNext = function(){
-		self.selected++;
-		if(self.selected>3){
-			self.selected=1;
-		}
+  initmap = function() {
+    var companyMarker, companyPos, map, mapOptions, styledMap, styles;
+    styles = [
+      {
+        featureType: "all",
+        elementType: "all",
+        stylers: [
+          {
+            saturation: -100
+          }, {
+            invert_lightness: true
+          }, {
+            lightness: -20
+          }, {
+            visibility: "on"
+          }, {
+            weight: 2.0
+          }
+        ]
+      }
+    ];
+    styledMap = new google.maps.StyledMapType(styles, {
+      name: "Magnet"
+    });
+    mapOptions = {
+      zoom: 15,
+      streetViewControl: false,
+      center: new google.maps.LatLng(-33.437816, -70.64097),
+      mapTypeControlOptions: {
+        mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+      },
+      scrollwheel: false
+    };
+    map = new google.maps.Map(document.getElementById('map'), mapOptions);
+    companyPos = new google.maps.LatLng(-33.440788, -70.65475);
+    companyMarker = new google.maps.Marker({
+      position: companyPos,
+      map: map
+    });
+    map.mapTypes.set('map_style', styledMap);
+    return map.setMapTypeId('map_style');
+  };
 
-		for(var i=1; i<=3; ++i){
-			if(i!=self.selected){
-				$('#hero'+i).fadeOut(400);
-			}
-		}
-		$('#hero'+self.selected).fadeIn(400);
-	};
+  $(document).ready(function() {
+    initmap();
+    return $('#services small').click(function() {
+      var $blackbook;
+      $blackbook = $('#blackbook');
+      $blackbook.removeClass('hide');
+      return $('body, html').scrollTop($blackbook.offset().top);
+    });
+  });
 
-	this.interval = setInterval(this.selectNext, 5000);
-	this.selectNext();
-};
-
-$(document).ready(function(){
-	var c = new C();
-	window.carrousel = c;
-	$('#contactForm').modal({show: false});
-	$('#submit').click(function(){
-		var form = {};
-		form.name = $('#name').val();
-		form.email = $('#email').val();
-		form.message = $('#message').val();
-		$.ajax({
-			type: 'POST',
-			data: 'form='+JSON.stringify(form),
-			success: function(r){
-				$('#contactForm').modal('hide');
-			}
-		});
-	});
-});
-
+}).call(this);
