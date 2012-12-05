@@ -17,12 +17,12 @@
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
 	</script>
 	-->
-	<link rel="stylesheet" href="/css/main.css">
+	<link rel="stylesheet" href="./css/main.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
 	</script>
-	<script src="/js/bootstrap.min.js">
+	<script src="./js/bootstrap.min.js">
 	</script>
-	<script src="/js/main.js">
+	<script src="./js/main.js">
 	</script>
 	<script src="http://maps.google.com/maps/api/js?sensor=false">
 	</script>
@@ -47,7 +47,7 @@
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="#clients">
 									Confiaron en nosotros
 								</a>
 							</li>
@@ -123,9 +123,9 @@
 						Open Sources
 					</h3>
 					<a href="#" class="project clearfix">
-						<div class="label">
-							Py
-						</div>
+     				<div class="ribbon-wrapper">
+     					<div>PY</div>
+     				</div>
 						<h4>
 							Magnet Bank
 						</h4>
@@ -134,9 +134,9 @@
 						</p>
 					</a>
 					<a href="#" class="project clearfix">
-						<div class="label">
-							Js
-						</div>
+     				<div class="ribbon-wrapper">
+     					<div>JS</div>
+     				</div>
 						<h4>
 							Reciclemos
 						</h4>
@@ -145,9 +145,9 @@
 						</p>
 					</a>
 					<a href="#" class="project clearfix">
-						<div class="label">
-							ROR
-						</div>
+     				<div class="ribbon-wrapper">
+     					<div>ROR</div>
+     				</div>
 						<h4>
 							Otro
 						</h4>
@@ -203,12 +203,12 @@
 				<div class="span3 member">
 					<div class="thumbnail" style="background-image: url('http://www.gravatar.com/avatar/18d98c3e9a98f7b1367e6d7e875739bd?s=130');"></div>
 					<div class="description">Mauricio Castro</div>
-				</div>	
+				</div>
 
 				<div class="span3 member">
 					<div class="thumbnail" style="background-image: url('http://www.gravatar.com/avatar/900ee00001f3b638afb8058598757624?s=130');"></div>
 					<div class="description">Sebastían Contreras</div>
-				</div>					
+				</div>
 
 				<div class="span3 member">
 					<div class="thumbnail" style="background-image: url('http://www.gravatar.com/avatar/80dd49e6ad3e699534e08f30a0a4c8fb?s=130');"></div>
