@@ -43,7 +43,7 @@
 						<ul>
 							<li>
 								<a href="#services">
-									Que hacemos
+									Qué hacemos
 								</a>
 							</li>
 							<li>
@@ -73,38 +73,57 @@
 		</div>
 	</header>
 	<section class="slide">
+		<div class="container">
+			<h1>Soluciones innovadoras a problemas complejos</h1>
+			<div class="row">
+			  <div class="span12">
+				<p class="lead">En Magnet tenemos la solución que andas buscando para tus problemas tecnológicos. <br> Contamos con la experiencia que tu empresa necesita en las más variadas tecnologías. <br>
+				</p><a href="#contact" class="btn btn-large">Hablemos</a>
+			  </div>
+			  <div class="span12">
+				<div class="tag-cloud">
+					<!-- tecnologías -->
+				</div>
+			  </div>
+			</div>
+		  </div>
 	</section>
 	<section id="services" class="services">
 		<div class="container">
 			<h3 class="section-title">
-				Que hacemos
-				<small>
-					tambien
-				</small>
+				Qué hacemos
 			</h3>
 			<div class="row">
-				<div class="span4 clearfix">
+				<div class="span3 clearfix">
 					<h4>
-						WebApp
+						Web
 					</h4>
 					<p>
-						Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+						Desarrollamos aplicaciones web a su medida, altamente escalables y utilizando las últimas tecnologías: HTML5, CSS3, Javascript, Backbone, Ember.js, Twitter Bootstrap, Node.js, Django, Ruby on Rails, entre otras.
 					</p>
 				</div>
-				<div class="span4 clearfix">
+				<div class="span3 clearfix">
 					<h4>
-						Android / iOS
+						Móviles
 					</h4>
 					<p>
-						Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.
+						¿Android, iPhone, iPad? Tenemos experiencia en aplicaciones móviles, desde el diseño y desarrollo hasta la publicación en el App Store y Google Play.
 					</p>
 				</div>
-				<div class="span4 clearfix">
+				<div class="span3 clearfix">
 					<h4>
-						¿?
+						Escritorio
 					</h4>
 					<p>
-						The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+						Para problemas complejos que requieren ser ejecutados en los computadores de su compañía, ofrecemos soluciones de escritorio altamente personalizadas.
+					</p>
+				</div>
+				<div class="span3 clearfix">
+					<h4>
+						Consultorías
+					</h4>
+					<p>
+						Tenemos expertos que te pueden ayudar a afrontar decisiones complejas a nivel tecnológico: Actualizar tus tecnologías, verificar la seguridad de tus sistemas, elegir las tecnologías para tu startup, etc.
 					</p>
 				</div>
 			</div>
@@ -117,42 +136,78 @@
 					<h3 class="section-title">
 						Confiaron en nosotros
 					</h3>
+					<div class="span2 company">
+						<img src="./img/acid.png" alt="Acid" />
+					</div>
+					<div class="span2 company">
+						<img src="./img/dictuc.png" alt="DICTUC" />
+					</div>
+					<div class="span2 company">
+						<img src="./img/junta.png" alt="Junta" />
+					</div>
+					<div class="span2 company">
+						<img src="./img/koozoo.png" alt="Koozoo" />
+					</div>
+					<div class="span2 company">
+						<img src="./img/lan.png" alt="LAN" />
+					</div>
+					<div class="span2 company">
+						<img src="./img/mayday.png" alt="Mayday" />
+					</div>
+					<div class="span2 company">
+						<img src="./img/metasolutions.png" alt="Meta Solutions" />
+					</div>
+					<div class="span2 company">
+						<img src="./img/munk.png" alt="Munk" />
+					</div>
+					<div class="span2 company">
+						<img src="./img/myhood.png" alt="MyHood" />
+					</div>
+					<div class="span2 company">
+						<img src="./img/speaktion.png" alt="Speaktion" />
+					</div>
+					<div class="span2 company">
+						<img src="./img/tcpavements.png" alt="TCPavements" />
+					</div>
+					<div class="span2 company">
+						<img src="./img/tout.png" alt="TOUT" />
+					</div>
 				</div>
 				<aside id="projects" class="span4 pull-right">
 					<h3 class="section-title">
 						Open Sources
 					</h3>
-					<a href="#" class="project clearfix">
-     				<div class="ribbon-wrapper">
-     					<div>PY</div>
-     				</div>
+					<a href="https://github.com/magnet-cl/magnet-bank" class="project clearfix">
+					<div class="ribbon-wrapper">
+						<div>PY</div>
+					</div>
 						<h4>
 							Magnet Bank
 						</h4>
 						<p>
-							Una wea la zorra para prestar plata
+							Pequeña aplicación para manejar deudas entre los miembros de la empresa.
 						</p>
 					</a>
-					<a href="#" class="project clearfix">
-     				<div class="ribbon-wrapper">
-     					<div>JS</div>
-     				</div>
+					<a href="https://github.com/magnet-cl/crah" class="project clearfix">
+					<div class="ribbon-wrapper">
+						<div>Java</div>
+					</div>
 						<h4>
-							Reciclemos
+							Crah
 						</h4>
 						<p>
-							Reciclar y Gamefication juntos =)
+							Un cliente REST simple y fácil de usar para Android.
 						</p>
 					</a>
-					<a href="#" class="project clearfix">
-     				<div class="ribbon-wrapper">
-     					<div>ROR</div>
-     				</div>
+					<a href="https://github.com/magnet-cl/geodjango-project-template" class="project clearfix">
+					<div class="ribbon-wrapper">
+						<div>Python</div>
+					</div>
 						<h4>
-							Otro
+							GeoDjango project template
 						</h4>
 						<p>
-							Este es farso farso.
+							Un template de proyecto en Django, usando GeoDjango.
 						</p>
 					</a>
 				</aside>
@@ -171,8 +226,13 @@
 				</div>
 
 				<div class="span3 member">
-					<div class="thumbnail" style="background-image: url('http://www.gravatar.com/avatar/1664607fc1a09735ba224203f2ba201b?s=130');"></div>
+					<div class="thumbnail" style="background-image: url('img/teston.jpg'); /*url('http://www.gravatar.com/avatar/6e240db8afd034eacaf2fa6108449b94?s=130');*/"></div>
 					<div class="description">Andrés Testón</div>
+				</div>
+
+				<div class="span3 member">
+					<div class="thumbnail" style="background-image: url('img/elisa.jpg');"></div>
+					<div class="description">Elisa Briones</div>
 				</div>
 
 				<div class="span3 member">
@@ -201,8 +261,8 @@
 				</div>
 
 				<div class="span3 member">
-					<div class="thumbnail" style="background-image: url('http://www.gravatar.com/avatar/18d98c3e9a98f7b1367e6d7e875739bd?s=130');"></div>
-					<div class="description">Mauricio Castro</div>
+					<div class="thumbnail" style="background-image: url('http://www.gravatar.com/avatar/29d91f07dbba16c812b51b588014303c?s=130');"></div>
+					<div class="description">Nicolás Goles</div>
 				</div>
 
 				<div class="span3 member">
@@ -212,7 +272,7 @@
 
 				<div class="span3 member">
 					<div class="thumbnail" style="background-image: url('http://www.gravatar.com/avatar/80dd49e6ad3e699534e08f30a0a4c8fb?s=130');"></div>
-					<div class="description">Tito Rivera</div>
+					<div class="description">Renato Rivera</div>
 				</div>
 			</div>
 		</div>
@@ -226,23 +286,25 @@
 			</h3>
 			<div class="control-group">
 				<div class="controls">
-					<input type="text" placeholder="Nombre">
+					<input id="name" type="text" placeholder="Nombre">
 				</div>
 			</div>
 			<div class="control-group">
 				<div class="controls">
-					<input type="email" placeholder="Correo">
+					<input id="email" type="email" placeholder="Correo">
 				</div>
 			</div>
 			<div class="control-group">
 				<div class="controls">
-					<textarea placeholder="Tu mensaje">
+					<textarea id="message" placeholder="Tu mensaje">
 					</textarea>
 				</div>
 			</div>
 			<div class="control-group">
 				<div class="controls">
-					<input type="submit" class="btn btn-primary pull-right">
+					<button id="submit" type="button" class="btn btn-primary pull-right">
+						Enviar
+					</button>
 				</div>
 			</div>
 		</form>
@@ -250,7 +312,7 @@
 	<section id="blackbook" class="blackbook hide">
 		<div class="container">
 			<h3 class="section-title">
-				The Black Book
+				En magnet también...
 			</h3>
 			<div class="row">
 				<div class="post">
@@ -259,25 +321,7 @@
 						</iframe>
 					</div>
 					<p>
-						i like turtle!
-					</p>
-				</div>
-				<div class="post">
-					<div>
-						<iframe width="420" height="315" src="http://www.youtube.com/embed/CMNry4PE93Y" frameborder="0" allowfullscreen="">
-						</iframe>
-					</div>
-					<p>
-						i like turtle!
-					</p>
-				</div>
-				<div class="post">
-					<div>
-						<iframe width="420" height="315" src="http://www.youtube.com/embed/CMNry4PE93Y" frameborder="0" allowfullscreen="">
-						</iframe>
-					</div>
-					<p>
-						i like turtle!
+						Nos gustan las tortugas!
 					</p>
 				</div>
 			</div>
@@ -286,13 +330,14 @@
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="span6">
+				<div class="span8">
 					<span>
-						Copyright 2012 Magnet SpA.
+						Copyright 2012 Magnet SpA. Los logotipos de los clientes pertenecen a las emrpresas respectivas. <small id="tellmemore">En Magnet también...</small>
 					</span>
 				</div>
 			</div>
 		</div>
 	</footer>
+	<div id="formOk">¡Mensaje enviado con éxito!</div>
 </body>
 </html>

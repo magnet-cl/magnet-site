@@ -46,7 +46,28 @@
 
   $(document).ready(function() {
     initmap();
-    return $('#services small').click(function() {
+
+    $('#submit').click(function(){
+      var form = {};
+      form.name = $('#name').val();
+      form.email = $('#email').val();
+      form.message = $('#message').val();
+      $.ajax({
+        type: 'POST',
+        data: 'form='+JSON.stringify(form),
+        success: function(r){
+          $('#name').val('');
+          $('#email').val('');
+          $('#message').val('');
+          $('#formOk').fadeIn(300);
+          setTimeout(function(){
+            $('#formOk').fadeOut(300);
+          },4000);
+        }
+      });
+    });
+
+    $('#tellmemore').click(function() {
       var $blackbook;
       $blackbook = $('#blackbook');
       $blackbook.removeClass('hide');

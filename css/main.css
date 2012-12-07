@@ -57,8 +57,17 @@ nav a:hover {
   background-image: url('../img/los_magnetos.jpg');
   background-position: center center;
   background-size: cover;
+  color: #ffffff;
   height: 440px;
+  text-align: center;
   width: 100%;
+}
+.slide h1{
+    margin: 70px 0 50px 0; /* Debería ser 50px 0; */
+    text-shadow: 0 1px 0 #000000;
+}
+.slide p{
+    margin-bottom: 50px; /* Debería ser 20px */
 }
 .member{
     float: left;
@@ -255,4 +264,25 @@ footer {
 }
 .ribbon-wrapper div:after {
   right: 0;
-}​
+}
+
+.company{
+    height: 85px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    width: 150px;
+}
+
+#formOk{
+    background: #DDFFDD;
+    box-shadow: 0 0 20px #000000;
+    display: none;
+    height: 50px;
+    left: 50%;
+    line-height: 45px;
+    margin: 0 0 0 -250px;
+    position: fixed;
+    text-align: center;
+    top: 100px;
+    width: 500px;
+}
