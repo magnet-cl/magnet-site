@@ -17,15 +17,12 @@
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
 	</script>
 	-->
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" href="./css/main.css">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
-	</script>
-	<script src="./js/bootstrap.min.js">
-	</script>
-	<script src="./js/main.js">
-	</script>
-	<script src="http://maps.google.com/maps/api/js?sensor=false">
-	</script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/main.js"></script>
+	<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
 </head>
 <body>
 	<header>
@@ -201,7 +198,7 @@
 					</a>
 					<a href="https://github.com/magnet-cl/geodjango-project-template" class="project clearfix">
 					<div class="ribbon-wrapper">
-						<div>Python</div>
+						<div>PY</div>
 					</div>
 						<h4>
 							GeoDjango project template
@@ -226,7 +223,7 @@
 				</div>
 
 				<div class="span3 member">
-					<div class="thumbnail" style="background-image: url('img/teston.jpg'); /*url('http://www.gravatar.com/avatar/6e240db8afd034eacaf2fa6108449b94?s=130');*/"></div>
+					<div class="thumbnail" style="background-image: url('img/teston.jpg'); /*url('http://www.gravatar.com/avatar/ed3794f88f929f9270cef02c54d7e72a?s=130');*/"></div>
 					<div class="description">Andrés Testón</div>
 				</div>
 
@@ -267,7 +264,7 @@
 
 				<div class="span3 member">
 					<div class="thumbnail" style="background-image: url('http://www.gravatar.com/avatar/900ee00001f3b638afb8058598757624?s=130');"></div>
-					<div class="description">Sebastían Contreras</div>
+					<div class="description">Sebastián Contreras</div>
 				</div>
 
 				<div class="span3 member">
@@ -332,7 +329,7 @@
 			<div class="row">
 				<div class="span8">
 					<span>
-						Copyright 2012 Magnet SpA. Los logotipos de los clientes pertenecen a las emrpresas respectivas. <small id="tellmemore">En Magnet también...</small>
+						Copyright 2012 Magnet SpA. Los logotipos de los clientes pertenecen a las empresas respectivas. <small id="tellmemore">En Magnet también...</small>
 					</span>
 				</div>
 			</div>
