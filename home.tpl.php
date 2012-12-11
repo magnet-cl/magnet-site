@@ -223,7 +223,7 @@
 				</div>
 
 				<div class="span3 member">
-					<div class="thumbnail" style="background-image: url('img/teston.jpg'); /*url('http://www.gravatar.com/avatar/ed3794f88f929f9270cef02c54d7e72a?s=130');*/"></div>
+					<div class="thumbnail" style="background-image: url('http://www.gravatar.com/avatar/ed3794f88f929f9270cef02c54d7e72a?s=130');"></div>
 					<div class="description">Andrés Testón</div>
 				</div>
 
