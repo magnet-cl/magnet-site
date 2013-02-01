@@ -24,6 +24,12 @@
     <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
 </head>
 <body>
-    I like turtles.
+    <div class="container">
+        <h1>Dónde están las reglas, las reglas</h1>
+        <div>
+            <h2><a href="https://docs.google.com/a/magnet.cl/document/d/1kH1OPgeuATxJ-VI_ELzawjbbtu4KjX9ppG5-JLDcoVQ/view">Vacaciones</a></h2>
+            <h2><a href="https://docs.google.com/a/magnet.cl/document/d/1V4Lnn3EuViiVxNO0dTI0tUjVhOtIgCcSYboNg4szsrI/view">Ciclo de vida de un proyecto</a></h2>
+        </div>
+    </div>
 </body>
 </html>
