@@ -137,16 +137,13 @@
 						<img src="./img/acid.png" alt="Acid" />
 					</div>
 					<div class="span2 company">
-						<img src="./img/dictuc.png" alt="DICTUC" />
-					</div>
-					<div class="span2 company">
 						<img src="./img/junta.png" alt="Junta" />
 					</div>
 					<div class="span2 company">
-						<img src="./img/koozoo.png" alt="Koozoo" />
+						<img src="./img/koopters.png" alt="Koopters" />
 					</div>
 					<div class="span2 company">
-						<img src="./img/lan.png" alt="LAN" />
+						<img src="./img/koozoo.png" alt="Koozoo" />
 					</div>
 					<div class="span2 company">
 						<img src="./img/mayday.png" alt="Mayday" />
@@ -228,21 +225,6 @@
 				</div>
 
 				<div class="span3 member">
-					<div class="thumbnail" style="background-image: url('img/elisa.jpg');"></div>
-					<div class="description">Elisa Briones</div>
-				</div>
-
-				<div class="span3 member">
-					<div class="thumbnail" style="background-image: url('http://www.gravatar.com/avatar/6b92b060747988dda0b2f1208de1e6fb?s=130');"></div>
-					<div class="description">Francisco Quiroga</div>
-				</div>
-
-				<div class="span3 member">
-					<div class="thumbnail" style="background-image: url('http://www.gravatar.com/avatar/63aa7e85b7ab48088e1aecc1bd0c8f75?s=130');"></div>
-					<div class="description">Gabriel Pollmann</div>
-				</div>
-
-				<div class="span3 member">
 					<div class="thumbnail" style="background-image: url('http://www.gravatar.com/avatar/6eb6ca097eed8ddcaf1e5b188c16671e?s=130');"></div>
 					<div class="description">Ignacio Munizaga</div>
 				</div>
@@ -253,13 +235,13 @@
 				</div>
 
 				<div class="span3 member">
-					<div class="thumbnail" style="background-image: url('http://www.gravatar.com/avatar/123fe895638bf5002588a33aea7c551e?s=130');"></div>
-					<div class="description">Joao López</div>
+					<div class="thumbnail" style="background-image: url('http://www.gravatar.com/avatar/8bb2a71dc569ab0ebab2e4ec88028cfb?s=130');"></div>
+					<div class="description">Mauricio Castro</div>
 				</div>
 
 				<div class="span3 member">
-					<div class="thumbnail" style="background-image: url('http://www.gravatar.com/avatar/29d91f07dbba16c812b51b588014303c?s=130');"></div>
-					<div class="description">Nicolás Goles</div>
+					<div class="thumbnail" style="background-image: url('http://www.gravatar.com/avatar/123fe895638bf5002588a33aea7c551e?s=130');"></div>
+					<div class="description">Joao López</div>
 				</div>
 
 				<div class="span3 member">

@@ -43,6 +43,27 @@ if(isset($_POST['form'])){
 		print("tryLater");
 	}
 }else{
-	// Render home page:
-	include('home.tpl.php');
-} ?>
+	// Try to parse route:
+	$params = array();
+	if(isset($_GET['action']))
+	{
+		$params = explode('/',$_GET['action']);
+	}
+	else
+	{
+		// Default view:
+		$params[]='home';
+	}
+
+	// Valid routing:
+	switch ($params[0]) {
+		case 'home':
+		case 'rules':
+			require('views/'.$params[0].'.tpl.php');
+			break;
+		default:
+			require('views/home.tpl.php');
+			break;
+	}
+}
+?>
